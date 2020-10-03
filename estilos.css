@@ -1,0 +1,107 @@
+table{
+    margin-top:50px;
+    margin-left:50px;
+    width: 90%;;
+    border:1px solid black;
+    border-collapse:collapse;
+}
+td{
+    height:40px;
+    width: 170px;
+    border:1px solid black;
+    text-align:center;
+    border-collapse:collapse;
+}
+td:empty {
+    background-color:rgb(151, 148, 148);
+    width:10%;
+  }
+.header {
+    margin-top:-16px;
+    margin-left:-10px;
+    height: 100px;
+    background-color:rgb(248, 214, 255);
+  }
+
+a{
+    text-decoration:none;
+}
+.headermenu li{
+    text-align:center;
+    margin-top:20px;
+    margin-left:50px;
+    width: auto;
+    height: 70px;
+    font-size: 150%;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px;
+  }
+
+.login{
+    margin-top:250px;
+    margin-left:600px;
+    height:50%;
+    width:20%;
+    border:2px solid black;
+    border-collapse:collapse;
+    justify-content: center;
+    background-color: bisque;
+}
+.tdlogin{
+    height:50px;
+    width:20%;
+    text-align:center;
+    border:none;
+}
+
+.f_usuarios{
+    height:500px;
+    width:500px;
+    margin:auto;
+    border: 2px solid rgb(55, 0, 128);
+    background-color:rgb(192, 246, 255);
+    margin-top:100px;
+    margin-left:500px;
+    justify-content: center;
+}
+.f_noticias{
+    height:450px;
+    width:500px;
+    margin:auto;
+    border: 2px solid rgb(55, 0, 128);
+    background-color:rgb(192, 246, 255);
+    margin-top:100px;
+    margin-left:500px;
+    justify-content: center;
+}
+label{
+    height:33px;
+    top:10px;
+    display: inline-block;
+    width:200px;
+    text-align:center;
+}
+input[type=text]{
+    margin-top:15px;
+    position:center;
+}
+input[type=date]{
+    margin-top:20px;
+    position:center;
+}
+
+td.buttons{
+    width:20%;
+}
+.buttons{
+    justify-content: center;
+    margin-top:15px;
+    margin-left:650px;
+}
+
+.volver{
+    height: 20px;
+    text-align: center;
+    padding:30px;
+}
